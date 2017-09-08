@@ -1,0 +1,551 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+	xmlns:p="http://primefaces.org/ui" xmlns:b="http://bootsfaces.net/ui"
+	xmlns:cc="http://java.sun.com/jsf/composite/cc">
+	
+<h:head>
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <title>Orlando Resume</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"></link>
+	<link rel="stylesheet" href="css/font-awesome.css"></link>
+	<link rel="stylesheet" href="css/animate.css"></link>
+	<link href="css/style.css" rel="stylesheet"></link>
+	
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'></link>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'></link>
+	<link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'></link>
+
+  </h:head>
+<h:body>
+	<div class="wrapper" id="wrapper">
+		<header>
+			<div class="banner row" id="banner">		
+				<div class="parallax text-center" style="background-image: url(img/1.jpg);">
+					<div class="parallax-pattern-overlay">
+						<div class="container text-center" style="height:600px;padding-top:170px;">
+							<a href="#"><img id="site-title" class=" wow fadeInDown profile-img" wow-data-delay="0.0s" wow-data-duration="0.9s" src="img/yo8bits.jpg" alt=""/></a>
+							<h2 class="intro"><a href="index.html">Orlando Loza</a></h2>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="menu">
+				<div class="navbar-wrapper">
+					<div class="container">
+						<div class="navwrapper">
+							<div class="navbar navbar-inverse navbar-static-top">
+								<div class="container">
+									<div class="navArea">
+										<div class="navbar-collapse collapse">
+											<ul class="nav navbar-nav">
+												<li class="menuItem active"><a href="#wrapper">Home</a></li>
+												<li class="menuItem"><a href="#aboutus">About Me</a></li>
+												<li class="menuItem"><a href="#specialties">Skills</a></li>
+												<li class="menuItem"><a href="#gallery">Portfolio</a></li>
+												<li class="menuItem"><a href="#feedback">Education</a></li>
+												<li class="menuItem"><a href="#contact">Contact</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</header>
+	
+		<!--about us-->
+	<section class="aboutus" id="aboutus">
+		<div class="container">
+			<div class="heading text-center">				
+				<h2>About Me</h2>				
+				<h3>I'm a Mechatronics engineer with experience in software development </h3>
+			</div>			
+			
+		</div>
+	</section>
+	
+
+<!--skills-->
+	<br/>
+	<section class="specialties" id="specialties">
+		<div class="container">
+			<div class="heading text-center">
+				<h2>Skills</h2>
+			</div>
+		</div>	
+			
+		<div class="container">
+            <div class="row">				
+				<div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="skill">                      
+						<div class="progress-wrap">
+							<h3>Java</h3>
+							<div class="progress">
+							  <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+								<span class="bar-width">90%</span>
+							  </div>
+
+							</div>
+						</div>
+
+						<div class="progress-wrap">
+							<h3>SQL</h3>
+							<div class="progress">
+							  <div class="progress-bar color2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+							   <span class="bar-width">70%</span>
+							  </div>
+							</div>
+						</div>
+
+						<div class="progress-wrap">
+							<h3>Python</h3>
+							<div class="progress">
+							  <div class="progress-bar color3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+								<span class="bar-width">60%</span>
+							  </div>
+							</div>
+						</div>
+
+						<div class="progress-wrap">
+							<h3>Android Development</h3>
+							<div class="progress">
+							  <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								<span class="bar-width">80%</span>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
+					<div class="skill">                      
+						<div class="progress-wrap">
+							<h3>HTML</h3>
+							<div class="progress">
+							  <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								<span class="bar-width">80%</span>
+							  </div>
+
+							</div>
+						</div>
+
+						<div class="progress-wrap">
+							<h3>JavaScript</h3>
+							<div class="progress">
+							  <div class="progress-bar color2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+							   <span class="bar-width">85%</span>
+							  </div>
+							</div>
+						</div>
+
+						<div class="progress-wrap">
+							<h3>CSS</h3>
+							<div class="progress">
+							  <div class="progress-bar color3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+								<span class="bar-width">75%</span>
+							  </div>
+							</div>
+						</div>
+
+						<div class="progress-wrap">
+							<h3>Arduino</h3>
+							<div class="progress">
+							  <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+								<span class="bar-width">90%</span>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>	
+		</div>
+		
+		<div class="container">	
+			<div class="row">
+				<div class="col-md-4">
+					<div class="skills">
+						<h3 class="main text-center">WEB DEVELOPMENT</h3>
+						<div class="restitem clearfix">
+							<div class="rm-thumb" style="background-image: url(img/html5.png);background-size: 80% 80%;">
+							</div>
+							<h5>HTML</h5>
+							<p>Bootstrap, JQuery UI, Jquery Mobile.</p>
+						</div>
+						<div class="restitem clearfix">
+							<div class="rm-thumb" style="background-image: url(img/css.jpg);background-size: 100% 90%;">
+							</div>
+							<h5>CSS</h5>
+						</div>
+						<div class="restitem clearfix">
+							<div class="rm-thumb" style="background-image: url(img/js.jpg);background-size: 65% 75%;">
+							</div>
+							<h5>JAVASCRIPT</h5>
+							<p>and some js libraries and frameworks such as JQuery, Angular, Ext.js, YUI.js.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="skills">
+						<h3 class="main text-center">SOFTWARE DEVELOPMENT</h3>
+						<div class="restitem clearfix">
+							<div class="rm-thumb" style="background-image: url(img/java.jpg);background-size: 100% 100%;">
+							</div>
+							<h5>Java</h5>
+							<p>Java Swing, JSP, Java Server Faces, PrimeFaces, BootsFaces, Hibernate, EJB, Spring.
+							</p>
+						</div>
+						<div class="restitem clearfix">
+							<div class="rm-thumb" style="background-image: url(img/sql.png);background-size: 80% 80%;">
+							</div>
+							<h5>SQL</h5>
+							<p>MySQL, SQL Server, PL/SQL, SyBase. 
+							</p>
+						</div>
+						<div class="restitem clearfix">
+							<div class="rm-thumb" style="background-image: url(img/android.png);background-size: 80% 80%;">
+							</div>
+							<h5>Android Development</h5>
+							<p>Native Apps, Hybrid Apps.
+							</p>
+						</div>
+						<div class="restitem clearfix">
+							<div class="rm-thumb" style="background-image: url(img/python.jpg);background-size: 85% 65%;">
+							</div>
+							<h5>Python</h5>
+							<p>Web Apps with Django.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="skills">
+						<h3 class="main text-center">EMBEDDED SYSTEMS</h3>
+						<div class="restitem clearfix">
+							<div class="rm-thumb" style="background-image: url(img/arduino.png);background-size: 65% 60%;">
+							</div>
+							<h5>Arduino</h5>
+							<p>data acquisition of sensors, use of the arduino GPIO to control electronics, Serial Port communication, I2C. 
+							</p>
+						</div>
+						<div class="restitem clearfix">
+							<div class="rm-thumb" style="background-image: url(img/raspi.png);background-size: 65% 70%;">
+							</div>
+							<h5>Raspberry pi</h5>
+							<p>basic knowledge of the Raspberry pi GPIO using python and node.js.
+							</p>
+						</div>
+						<div class="restitem clearfix">
+							<div class="rm-thumb" style="background-image: url(img/pic.png);background-size: 90% 65%;">
+							</div>
+							<h5>PIC/ATmega</h5>
+							<p>basic control of the GPIO in C and Assembly
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	
+
+	<!--portfolio-->
+	<section class="gallery" id="gallery">
+		<div class="container">
+			<div class="heading text-center">				
+				<h2>Portfolio</h2>
+				<h3>The following are some of my projecs.</h3>
+				<p>Click on the image to see a link to the app</p>
+			</div>
+			
+			<div id="grid-gallery" class="grid-gallery">
+				<section class="grid-wrap">
+					
+					<ul class="grid">
+						<li class="grid-sizer"></li><!-- for Masonry column width -->				
+						<li>
+							<figure>
+								<img src="img/cubbot.png" alt=""/>
+								<figcaption>
+									<h3>CUBBOT</h3>
+									<p>a web app that solves a Rubiks Cube from a given initial state.</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/cpg.png" alt=""/>
+								<figcaption>
+									<h3>CPGSim</h3>
+									<p>An artificial Central Pattern Generator that produces a pattern of points from a given stimulus as an input
+									used in my thesis.</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/pistolainador.png" alt=""/>
+								<figcaption>
+									<h3>Pistolainador</h3>
+									<p>An android app that controls the movement of a nerf sentry gun attached to some servomotors over bluetooth usin the 
+									android accelerometer.</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/jsf.png" alt=""/>
+								<figcaption>
+									<h3>Web Apps base</h3>
+									<p>A Java Server Faces framework that i created for a base start of web apps. it uses bootsfaces and Hibernate.</p>
+								</figcaption>
+							</figure>
+						</li>
+					</ul>
+						
+				</section><!-- // end small images -->
+				
+				<section class="slideshow">
+					<ul>
+						<li>
+							<figure>
+								<img src="img/cubbot.png" alt=""/>		
+								<figcaption>
+									<h1><a href="http://sample-env-1.z3gge3mhyq.us-east-1.elasticbeanstalk.com/">Cubbot app</a></h1>
+								</figcaption>							
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/cpg.png" alt=""/>		
+								<figcaption>
+									<h1><a href="http://orlando26.github.io/tesis/">CPGSim app</a></h1>
+								</figcaption>								
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/pistolainador.png" alt=""/>	
+								<figcaption>
+									<a href="https://play.google.com/store/apps/details?id=org.femko.orlando.piumpium&amp;hl=es">Pistolainador app</a>
+								</figcaption>								
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/jsf.png" alt=""></img>		
+								<figcaption>
+									<a href="http://sample-env.wpgthzhhxc.us-east-1.elasticbeanstalk.com/">JSF Template app</a>
+								</figcaption>								
+							</figure>
+						</li>
+						
+					</ul>
+					<nav>
+						<span class="icon nav-prev"></span>
+						<span class="icon nav-next"></span>
+						<span class="icon nav-close"></span>
+					</nav>
+					<div class="info-keys icon">Navigate with arrow keys</div>
+				</section><!-- // end slideshow -->					
+			</div><!-- // grid-gallery -->
+		</div>
+	</section>
+	
+	<!--education-->
+	<section class="feedback" id="feedback">
+		<div class="container">
+			<div class="heading">
+				<h2>Education</h2>
+				
+			</div>			
+		</div>
+		
+		<div class="container">
+			<div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+				<div class="text-center">
+					<div class="hi-icon-wrap hi-icon-effect">												
+						<h4>Mechatronics Engineer</h4>
+						<h5>JAN 2012 - DEC 2017</h5>
+						<i class="fa fa-book"></i>
+						<p>Facultad De Ingenieria Mecanica Y Electrica.</p>
+					</div>
+				</div>	
+			</div>
+			
+			<div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
+				<div class="text-center">
+					<div class="hi-icon-wrap hi-icon-effect">												
+						<h4>Java Development Diplomate</h4>
+						<h5>JUL 2013 - JUN 2014</h5>
+						<i class="fa fa-laptop"></i>
+						<p>Educación continua, FIME</p>
+					</div>
+				</div>		
+			</div>
+			
+			<div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s">
+				<div class="text-center">
+					<div class="hi-icon-wrap hi-icon-effect">												
+						<h4>OCP Java SE 6 Programer Certificate</h4>
+						<h5>DEC 2014</h5>
+						<i class="fa fa-code"></i>
+						<p>Develop 7I</p>
+					</div>
+				</div>				
+			</div>
+		</div>
+		
+	</section>
+	
+	<!--education-->
+	<section class="contact" id="contact">		
+		<div class="container">
+			<div class="heading">
+				<h2>Contact</h2>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="map">				
+						<div id="google-map" data-latitude="25.738164" data-longitude="-100.3008678"></div>
+					</div>
+				</div>
+				
+				<div class="contact-info">
+					<div class="col-md-5">
+						<h4>My Contact Info</h4>
+						<h5>You can contact me by email or phone</h5>
+						<ul>
+							<li><i class="fa fa-home fa-2x"></i> Monterrey, NL</li>
+							<li><i class="fa fa-phone fa-2x"></i> +52 1 899 321 5593</li>
+							<li><i class="fa fa-envelope fa-2x"></i> orlandolozaarr@gmail.com</li>
+							<li><i class="fa fa-download fa-2x"></i><a href="https://drive.google.com/open?id=0B9Pmx7N3h15JS2d6eURycVEwN2c"> Download My Resume</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+		  <div class="row">
+		      <div class="col-md-8 col-md-offset-2">
+                <c:set var="bean" value="#{RequestContext.email}"></c:set>
+                <h:form action="" method="post" role="form" class="contactForm">
+                	<p:growl id="growl" showDetail="true" sticky="false" />  
+                    <div class="form-group">
+                        <b:inputText type="text" value="#{bean.name}" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <b:inputText type="email" value="#{bean.email}" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <b:inputText type="text" value="#{bean.subject}" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <b:inputTextarea class="form-control" value="#{bean.message}" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></b:inputTextarea>
+                        <div class="validation"></div>
+                    </div>
+                    
+                    <div class="text-center"><b:commandButton type="submit" class="contact submit" action="#{bean.test}" value="Send Message!" ajax="true" update="@form"></b:commandButton></div>
+                </h:form>
+		      </div>
+		  </div>
+		</div>
+	</section>
+  
+	<!--footer-->
+	<section class="footer" id="footer">
+		<p class="text-center">
+			<a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+		</p>
+		<div class="container"> 
+			<ul>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://www.facebook.com/orlando.lozacastro"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/orlando-loza-castro-96755a148/"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://www.pinterest.com.mx/lozacastro/"><i class="fa fa-pinterest"></i></a></li>
+				<li><a href="https://github.com/orlando26"><i class="fa fa-github"></i></a></li>
+				
+			</ul>
+		</div>
+	</section>
+		
+	</div>
+    <script src="js/jquery.js"></script>
+	<script src="js/modernizr.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/menustick.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/easing.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/masonry.js"></script>
+	<script src="js/imgloaded.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/colorfinder.js"></script>
+	<script src="js/gridscroll.js"></script>
+	<script src="js/common.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDETCmdrfyze-W2cAeG1iFU0ijS5jFRjAU&amp;callback=initMap"></script>
+	
+	<script>wow = new WOW({}).init();</script>	
+	<script type="text/javascript">
+jQuery(function($) {
+$(document).ready( function() {
+  //enabling stickUp on the '.navbar-wrapper' class
+	$('.navbar-wrapper').stickUp({
+		parts: {
+		  0: 'banner',
+		  1: 'aboutus',
+		  2: 'specialties',
+		  3: 'gallery',
+		  4: 'feedback',
+		  5: 'contact'
+		},
+		itemClass: 'menuItem',
+		itemHover: 'active',
+		topMargin: 'auto'
+		});
+	});
+    
+    //Google Map
+    var get_latitude = $('#google-map').data('latitude');
+    var get_longitude = $('#google-map').data('longitude');
+
+    function initialize_google_map() {
+        var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);
+        var mapOptions = {
+            zoom: 14,
+            scrollwheel: false,
+            center: myLatlng
+        };
+        var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize_google_map);
+});
+</script>
+</h:body>
+
+</html>
